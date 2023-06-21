@@ -1,10 +1,11 @@
 import React from 'react';
+import Aside from './sideBar';
 
 const DashboardLayout = ({children}) => {
     return (
-        <div>
+        <div className=' container mx-auto'>
             <div>
-                sidebar
+                <Aside></Aside>
             </div>
             {children}
         </div>
